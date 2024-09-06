@@ -1,3 +1,20 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#main-box {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 10px;
+  border: 2px solid black;
+  padding: 15px;
+  border-radius: 10px;
+}
+
 button {
   width: 100px;
   height: 100px;
@@ -15,23 +32,6 @@ button {
 button:hover {
   background-color: #fff;
   border: 2px solid #dd3454;
-}
-
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-}
-
-#main-box {
-  display: grid;
-  grid-template-columns: repeat(3, 100px);
-  grid-template-rows: repeat(3, 100px);
-  gap: 10px;
-  border: 2px solid black;
-  padding: 15px;
-  border-radius: 10px;
 }
 
 .cbtn1 {
