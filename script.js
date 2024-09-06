@@ -86,10 +86,9 @@ function reset() {
   button.forEach((btn) => {
     btn.innerHTML = "";
     btn.disabled = false;
-    btn.style.backgroundColor = "rgb(255, 236, 236)";
     btn.classList.remove("cbtn1");
     btn.classList.remove("cbtn2");
-    btn.style.color = "";
+    btn.style = "";
   });
 }
 
